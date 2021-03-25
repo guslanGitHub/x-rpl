@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* 
+selector{
+  properti1: value;
+  properti2: value;
+}
+ */
+
+.header {
+  background-color: rgb(37, 182, 158);
+}
+.header ul li {
+  float: left;
+  list-style: none;
+  padding: 10px;
+}
+
+.header h2 {
+  float: left;
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.clear {
+  clear: both;
+}
