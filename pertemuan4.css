@@ -43,11 +43,64 @@ selector{
   margin-left: 40px;
   font-family: sans-serif;
 }
+.home h1 span {
+  color: red;
+  font-family: "Times New Roman";
+}
 .home p {
   font-size: 30px;
   margin-left: 50px;
   font-weight: bold;
   font-family: sans-serif;
+}
+.pelajaran {
+  background-color: lightgreen;
+}
+.pelajaran h2 {
+  padding-top: 50px;
+  padding-left: 50px;
+  font-size: 28px;
+  font-family: sans-serif;
+  font-style: italic;
+  text-decoration: underline;
+  font-variant: small-caps;
+}
+.pelajaran ul li {
+  float: left;
+  margin-right: 50px;
+  list-style: none;
+  text-align: center;
+}
+.pelajaran ul {
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+.pelajaran ul li p {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+/* saya yang edit */
+.kontak {
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+.kontak ul li {
+  list-style: none;
+  margin-top: 10px;
+}
+.kontak ul li button {
+  background-color: lightskyblue;
+  width: 200px;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
 }
 .clear {
   clear: both;
